@@ -1,0 +1,42 @@
+.fs-12 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.fs-14 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

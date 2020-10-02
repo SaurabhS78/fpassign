@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import statusBar from "./assets/statusbar.svg";
+import Home from "./components/home";
 
 function App() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    var url =
+      "https://9520df26-373d-4c19-9353-e2d4576bdbfc.mock.pstmn.io/home/";
+
+    async function request() {
+      try {
+        const response = await fetch(url);
+        const jsonObj = await response.json();
+        setData(jsonObj);
+      } catch {
+        console.log("error");
+      }
+    }
+    request();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mobile-section">
+      <img src={statusBar} alt="" />
+      <Home data={data} />
     </div>
   );
 }
