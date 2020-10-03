@@ -38,22 +38,21 @@ const HC3 = ({ data, id }) => {
     <>
       {showCard ? (
         <div className="hc3-wrapper flex-row">
-          {showButtons ? (
-            <div className="iconbtn-wrapper flex-column">
-              <IconButton
-                label="remind later"
-                icon={remind}
-                action={handleIconButtonClick}
-              />
-              <IconButton
-                label="dismiss now"
-                icon={dismiss}
-                action={handleIconButtonClick}
-              />
-            </div>
-          ) : null}
+          <div className="iconbtn-wrapper flex-column">
+            <IconButton
+              label="remind later"
+              icon={remind}
+              action={handleIconButtonClick}
+            />
+            <IconButton
+              label="dismiss now"
+              icon={dismiss}
+              action={handleIconButtonClick}
+            />
+          </div>
+
           <div
-            className="hc3"
+            className={`hc3 ${showButtons ? "slide-right" : ""}`}
             {...handleLongPressClick}
             style={{ backgroundColor: data.bg_color }}
           >

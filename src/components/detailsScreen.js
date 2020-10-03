@@ -1,6 +1,7 @@
 import React from "react";
 import arrow from "../assets/arrowRight.svg";
 import Savings from "./savingsChallenge";
+import SpinWheel from "./spinWheel";
 
 const DetailsScreen = ({ data, type, setScreen }) => {
   return (
@@ -12,7 +13,9 @@ const DetailsScreen = ({ data, type, setScreen }) => {
       <div className="home-section">
         {type === "Savings Challenge" ? (
           <Savings data={data !== [] ? data[0] : data} />
-        ) : null}
+        ) : (
+          <SpinWheel />
+        )}
       </div>
     </>
   );

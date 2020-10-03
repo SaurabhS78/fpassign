@@ -57,7 +57,11 @@ const Home = ({ data }) => {
                 ));
               case "HC6":
                 return d.cards.map((card) => (
-                  <HC6 key={d.id + "." + d.cards.indexOf(card)} data={card} />
+                  <HC6
+                    key={d.id + "." + d.cards.indexOf(card)}
+                    data={card}
+                    setScreen={setScreen}
+                  />
                 ));
               default:
                 return null;
@@ -72,6 +76,14 @@ const Home = ({ data }) => {
         key={"SavingsChallenge"}
         data={data.filter((d) => d.design_type === "HC5")}
         type={"Savings Challenge"}
+        setScreen={setScreen}
+      />
+    );
+  } else {
+    return (
+      <DetailsScreen
+        key={"SpinWheel"}
+        type={"Your Rewards"}
         setScreen={setScreen}
       />
     );
