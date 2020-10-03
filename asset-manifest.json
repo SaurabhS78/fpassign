@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fpassign/static/css/main.68213fec.chunk.css",
+    "main.js": "/fpassign/static/js/main.94d06fa0.chunk.js",
+    "main.js.map": "/fpassign/static/js/main.94d06fa0.chunk.js.map",
+    "runtime-main.js": "/fpassign/static/js/runtime-main.64c44abc.js",
+    "runtime-main.js.map": "/fpassign/static/js/runtime-main.64c44abc.js.map",
+    "static/js/2.e1e21ec6.chunk.js": "/fpassign/static/js/2.e1e21ec6.chunk.js",
+    "static/js/2.e1e21ec6.chunk.js.map": "/fpassign/static/js/2.e1e21ec6.chunk.js.map",
+    "index.html": "/fpassign/index.html",
+    "precache-manifest.31f7651699925d473398abddb6a84525.js": "/fpassign/precache-manifest.31f7651699925d473398abddb6a84525.js",
+    "service-worker.js": "/fpassign/service-worker.js",
+    "static/css/main.68213fec.chunk.css.map": "/fpassign/static/css/main.68213fec.chunk.css.map",
+    "static/js/2.e1e21ec6.chunk.js.LICENSE.txt": "/fpassign/static/js/2.e1e21ec6.chunk.js.LICENSE.txt",
+    "static/media/Asset 15.svg": "/fpassign/static/media/Asset 15.1ad36608.svg",
+    "static/media/arrowRight.svg": "/fpassign/static/media/arrowRight.91bd7358.svg",
+    "static/media/dismiss.svg": "/fpassign/static/media/dismiss.751f4a5a.svg",
+    "static/media/fampaylogo.svg": "/fpassign/static/media/fampaylogo.50d2a94d.svg",
+    "static/media/remind.svg": "/fpassign/static/media/remind.ce84babd.svg",
+    "static/media/spinWheel.svg": "/fpassign/static/media/spinWheel.40d66f07.svg",
+    "static/media/spinnerPin.svg": "/fpassign/static/media/spinnerPin.e94ea0ea.svg",
+    "static/media/statusbar.svg": "/fpassign/static/media/statusbar.b96b4591.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64c44abc.js",
+    "static/js/2.e1e21ec6.chunk.js",
+    "static/css/main.68213fec.chunk.css",
+    "static/js/main.94d06fa0.chunk.js"
+  ]
+}
